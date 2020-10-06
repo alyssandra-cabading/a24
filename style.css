@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
 
 .main-img{
-  background-image: url("Still2-Moonlight.jpg");
+  background-image: url("moonlightcover.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 650px;
+  height: 450px;
 }
 
 .special.item{
@@ -19,13 +19,13 @@
   font-family: "Gruppo", sans-serif;
   background-color: transparent;
   font-size: 18px;
-  margin-top: 40px;
 }
 
-.two.wide.column{
-  margin-top: 40px;
-}
+.ui.container{
+  margin-top: 10px;
+  margin-right: 0px;
 
+}
 .ui.image{
   max-height: 30px;
 }
