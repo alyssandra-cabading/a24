@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
+
+.main-img{
+  background-image: url("Still2-Moonlight.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
+
+.special.item{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 18px;
+}
+
+.borderless.topPart.menu{
+  box-shadow: none;
+  border: none;
+  font-family: "Gruppo", sans-serif;
+  background-color: transparent;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.two.wide.column{
+  margin-top: 40px;
+}
+
+.ui.image{
+  max-height: 30px;
+}
