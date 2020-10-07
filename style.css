@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
+.ui.segment{
+  padding: 0;
+}
 .main-img{
   background-image: url("moonlightcover.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
+  height: 638px;
 }
 
 .special.item{
@@ -13,12 +17,18 @@
   font-size: 18px;
 }
 
+.subject.item {
+  font-family: "Gruppo", sans-serif;
+  font-size: 20px;
+  font-kerning: none;
+}
+
 .borderless.topPart.menu{
   box-shadow: none;
   border: none;
   font-family: "Gruppo", sans-serif;
   background-color: transparent;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .ui.container{
@@ -28,4 +38,87 @@
 }
 .ui.image{
   max-height: 30px;
+}
+
+.ui.bottom.left.attached.label{
+  background-color: transparent;
+  color: white;
+  bottom: 10px;
+  padding-left: 30px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 65px;
+  font-weight: 200;
+}
+
+.section{
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-stretch: condensed;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
+
+
+}
+
+.year.ui.list{
+  margin-bottom: 62px;
+}
+
+.ui.compact.menu{
+  font-family: "Gruppo", sans-serif;
+  font-size: 25px;
+  width: 250px;
+}
+
+.ui.grid.synopsis{
+  margin-left: 20px;
+  margin-right: 150px;
+  font-size: 25px;
+  box-shadow: none;
+}
+
+.five.wide.column {
+  font-size: 18px;
+}
+
+.ui.award.list{
+  margin-top: 50px;
+  margin-left: 35px;
+  font-size: 25px;
+}
+
+.share{
+  margin-left: 35px;
+}
+
+.date.item{
+  font-size: 16px;
+}
+
+.ui.centered{
+  height:200px;
+  width:200px;
+}
+
+.footer{
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  font-family: "Gruppo", sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mid{
+  margin-bottom: 20px;
+}
+
+.footer.column{
+  margin-top: 50px;
+}
+
+.ui.footer.list{
+  margin-left: 15px;
 }
